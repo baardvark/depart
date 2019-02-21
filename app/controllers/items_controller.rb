@@ -39,7 +39,7 @@ end
 
   def destroy
     @item.destroy
-    redirect_to department_items_path
+    redirect_to department_items_path(@department)
   end
 
   private
